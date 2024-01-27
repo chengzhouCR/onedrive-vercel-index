@@ -11,7 +11,7 @@ module.exports = {
 
   // [OPTIONAL] This is the website icon to the left of the title inside the navigation bar. It should be placed under the
   // /public directory of your GitHub project (not your OneDrive folder!), and referenced here by its relative path to /public.
-  icon: '/icons/128.png',
+  icon: '/icons/1.png',
 
   // Prefix for KV Storage
   kvPrefix: process.env.KV_PREFIX || '',
@@ -29,16 +29,16 @@ module.exports = {
   // [OPTIONAL] We use Google Fonts natively for font customisations.
   // You can check and generate the required links and names at https://fonts.google.com.
   // googleFontSans - the sans serif font used in onedrive-vercel-index.
-  googleFontSans: 'Inter',
+  googleFontSans: 'Noto Serif SC',
   // googleFontMono - the monospace font used in onedrive-vercel-index.
   googleFontMono: 'Fira Mono',
   // googleFontLinks -  an array of links for referencing the google font assets.
-  googleFontLinks: ['https://fonts.googleapis.cn/css2?family=Fira+Mono&family=Inter:wght@400;500;700&display=swap'],
+  googleFontLinks: ['https://fonts.googleapis.cn/css2?family=Fira+Mono&family=Noto+Serif+SC:wght@400;500;700&display=swap'],
 
   // [OPTIONAL] The footer component of your website. You can write HTML here, but you need to escape double
   // quotes - changing " to \". You can write anything here, and if you like badges, generate some with https://shields.io
   footer:
-    '2024 ❤ ChengZhouCR.',
+    'By ❤ ChengZhouCR.',
 
   // [OPTIONAL] This is where you specify the folders that are password protected. It is an array of paths pointing to all
   // the directories in which you have .password set. Check the documentation for details.
