@@ -38,21 +38,7 @@ module.exports = {
   // [OPTIONAL] The footer component of your website. You can write HTML here, but you need to escape double
   // quotes - changing " to \". You can write anything here, and if you like badges, generate some with https://shields.io
   footer:
-    '<p id="hitokoto_all"><a href="#" id="hitokoto_text">获取诗词中 ... </a></p>
-    <script async <%= theme.pjax.enable === true ? 'data-pjax' : '' %>
-        >
-        fetch('https://v1.hitokoto.cn/?c=i')
-        .then(function (res){
-        return res.json();
-    })
-        .then(function (data) {
-        var hitokoto_all = document.getElementById('hitokoto_all');
-        hitokoto_all.innerText = data.hitokoto + "  —— " + data.from_who +"《" + data.from + '》' ; 
-    })
-        .catch(function (err) {
-        console.error(err);
-    })
-</script>',
+      \"<script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>",
 
   // [OPTIONAL] This is where you specify the folders that are password protected. It is an array of paths pointing to all
   // the directories in which you have .password set. Check the documentation for details.
