@@ -38,7 +38,7 @@ module.exports = {
   // [OPTIONAL] The footer component of your website. You can write HTML here, but you need to escape double
   // quotes - changing " to \". You can write anything here, and if you like badges, generate some with https://shields.io
   footer:
-      '<span id=\"jinrishici-sentence\">正在加载今日诗词....</span><script src=\"https://sdk.jinrishici.com/v2/browser/jinrishici.js\"charset=\"utf-8\"></script>',
+      '邪王真眼が最強: はぜろリアル！弾けろシナプス！ パニッシュメント ディス、ワールド！<br />Takanashi Rikka ❤ 小鳥遊 六花',
 
   // [OPTIONAL] This is where you specify the folders that are password protected. It is an array of paths pointing to all
   // the directories in which you have .password set. Check the documentation for details.
